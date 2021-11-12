@@ -20,3 +20,9 @@ window.alert(B);
 document.write(D+E);
 document.write(Top+Middle+Bottom)// this has been concatenated
 
+function text(){
+    var R = "YES!!! I GOT THIS WORKING!!!";
+    var R = R.fontcolor("blue");
+    document.getElementById(id="demo").innerHTML =  R;
+
+}
