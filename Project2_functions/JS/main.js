@@ -13,8 +13,8 @@ function text(){
 
 function myFunction(a,b) //don't understand why this doesn't work
 {
-    return a+b;
+    return a+b
+    
 }
+document.getElementById("myFunction").innerHTML= "2+3= " + myFunction(2,3);
 
-document.getElementById("myFunction").innerHTML = myFunction(19,22);
-// this here should call the function and change an element with the id myFunction, but for somereson when the page is loaded it's not calling it in the p function.
