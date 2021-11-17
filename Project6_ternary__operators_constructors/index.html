@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Project 6</title>
+    </head>
+
+    <body>
+
+        <!-- this button is used to see if the rider is over 52 centimeters-->
+        <p>Riders must be at least 52 centimeters to ride</p>
+        <input id="Height" value="52" type="text"/>
+        <button onclick="Ride_Function()">Click here</button>
+        <p id="Ride"></p>
+
+        <script src="./JS/main.js"></script>
+
+        <br><br><!--Spaceing-->
+
+        <!-- this is a button that uses the VotersEligibilty_Function() to see if the number put in is over 18-->
+        <p>Voters must be 18 in canda</p>
+        <p>Please put in your age</p>
+        <input id="Age" value="What is your age" type="text">
+        <button onclick="VotersEligibility_Function()">Click when finished</button>
+        <p id="Vote"></p>
+
+        <br><br> <!--Spaceing-->
+
+        <!--This button uses the myFunction function, this function grabs data from an object and spits it out into the paragraph tag below-->
+        <button onclick="myFunction()">Click here</button>
+        <p id="Keywords_and_Constructors"></p> 
+
+        <br><br> <!--Spaceing-->
+
+        <button onclick="myOtherFunction()">Click me</button>
+        <p id="New_and_this"></p>
+        
+        <br><br> <!--Spaceing-->
+
+        <p>This is an Assignment button, there is a a variable assigned the value of a reserved word. Don't think this will do anything as it is in quotations  </p>
+        
+        <button onclick="oopsypoopsy()">Click me</button>
+        <p id="thisone"></p>
+
+        <br><br> <!--Spaceing-->
+
+        <p>This will use a function in side a function to concatenate 2 parts of a sentce, I call it... Funception!</p>
+
+        <br> <!--Spaceing, and I am sorry for the Dad humor LOL-->
+        <p onclick="Funception()" id="Nested_Function">Click here</p>
+    </body>
+
+</html>
+
