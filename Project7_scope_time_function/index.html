@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project 7</title>
+</head>
+<body>
+    <p>this button should work in the console</p>
+    <button onclick="works()">Click me</button>
+
+    <br><!--Spacing-->
+
+    <p>thisbutton won't work in the console</p>
+    <!--This button shouldn't work since the local variable y has not been inputed-->
+    <button onclick="noWork()">Click me</button>
+
+    <br><!--Spacing-->
+
+    <p id="timeRequest" onclick="time()">Hey, click here for the Time</p>
+
+    <br><!--Spacing-->
+
+    <!--the instructions-->
+    <p>Type in a number that is greater or equal to the 10</p> 
+    <!--Input tabe for the user to put a number in -->
+    <input type="text" id="inputNum" value="0">
+    <!--Button, when clicked, starts the Function isBigger to check the number-->
+    <button onclick="isBigger()">Click here</button>
+    <!--Place for the functions output-->
+    <p id="output"></p>
+
+    <br><!--Spacing-->
+
+    <p id="Time_of_day"></p>
+    <button onclick="Time_function()">click here to get the time</button>
+
+    <script src="./JS/main.js"></script>
+</body>
+</html>
