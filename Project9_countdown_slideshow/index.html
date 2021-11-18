@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Project 9</title>
+        <link rel="stylesheet" href="./CSS/main.css">
+    </head>
+
+    <body>
+        <!-- Slid Show -->
+        <div class="slideshow-container">
+
+            <!--First Image  with number an cation text-->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3 </div>
+                <img src="./Imgs/img_nature_wide.jpg" style="width: 100%;" alt="">
+            <div class="text">Caption Text</div>
+        </div>
+            <!--Second Image with number an cation text-->
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3 </div>
+                <img src="./Imgs/img_snow_wide.jpg" style="width: 100%;" alt="">
+            <div class="text">Caption Text</div>
+        </div>
+            <!--Third Image with number an cation text-->
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3 </div>
+                <img src="./Imgs/img_mountains_wide.jpg" style="width: 100%;" alt="">
+            <div class="text">Caption Text</div>
+        </div>
+
+
+            <!--Previous button -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <!-- Next button -->
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+    
+        </div>
+        <!-- the dots/circles-->
+
+        <br>
+
+        <div style="text-align: center;">
+            <span class="dot" onclick="currentslide(1)"></span>
+            <span class="dot" onclick="currentslide(2)"></span>
+            <span class="dot" onclick="currentslide(3)"></span>
+        </div>
+
+          <!-- End of Slide Show -->
+
+
+
+        <p>How many seconds would you like to be on the clock</p>
+        <input type="text" id="seconds" value="">
+        <button onclick="countDown()">Click here</button>
+        <p id="timer"></p>
+
+        <!-- this was a test to see if I needed to type out the full document line or just the "id".innerHTML and get something to pop up-->
+        <button onclick="test()">this is a test</button>
+        <p id="maybe"></p>
+
+
+
+        <script src="./JS/main.js"></script>
+
+        
+    </body>
+</html>
