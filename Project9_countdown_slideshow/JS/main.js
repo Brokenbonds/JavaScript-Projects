@@ -30,10 +30,12 @@ function showSlides(n){
 
 // my count down timer, don't quite understand how it's able to loop though.
 function countDown(){
+    //creats a varrible called second which is pulled from the input id'ed as second
     var seconds = document.getElementById("seconds").value;
-
+    // starts the function
     function tick(){
-        seconds = seconds-1;
+        // creates 2 variables seconds and timer, sec
+        seconds -= 1;
         timer.innerHTML = seconds;
         var time = setTimeout (tick, 1000);
         if(seconds == -1){
