@@ -34,18 +34,29 @@ function countDown(){
     var seconds = document.getElementById("seconds").value;
     // starts the function
     function tick(){
-        // creates 2 variables seconds and timer, sec
+        // creates 3 variables seconds and timer
+        //seconds subtracts 1 from it's self
         seconds -= 1;
+        // timer grabs the variable seconds and puts it into the id location timer
         timer.innerHTML = seconds;
+
+        // the variable time is created witch is going to hold us here for 1 second (1000 milliseconds)
         var time = setTimeout (tick, 1000);
+        // we check our seconds, if it has reached -1 we run this code
         if(seconds == -1){
+            // show an alert that time is up
             alert("Time's up!");
+            // clear out time, or it will continue to count in the background forever until the browser is shut down
             clearTimeout(time);
+            //clear the timer id by putting a space
             timer.innerHTML = " ";
         }
     }
+    // run the tick function
     tick();
 }
+
+
 // I don't need to writh document.getElementById() apparently I can just type in the "id".innerHTML and it will know what to do.
 function test(){
     maybe.innerHTML = "Does this work?"
