@@ -113,7 +113,7 @@ function placeXorO(squareNumber){
             //This function playes the tie game sound.
             audio('./media/tie.mp3');
             //This function sets a .3 second timer before the resetGame is called
-            setTimeout(function () {restGame();}, 1000)
+            setTimeout(function () {resetGame();}, 1000)
         }
 
         //This function checks if an array includes 3 strings. It is used to check for each win condition
