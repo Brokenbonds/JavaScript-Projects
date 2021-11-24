@@ -41,7 +41,7 @@ function Handle_Operator(Next_Operator){
     const Value_of_Input = parseFloat(Display_Value);
     // chekcs if an operator already exits and if Wait_Second_Operand is true, then updates the operator and exits from the fruntion
     if(operator && Calculator.Wait_Second_Operand){
-        Calculator.operator = Next_operator;
+        Calculator.operator = Next_Operator;
         return;
     }
     if(First_Operand == null){
