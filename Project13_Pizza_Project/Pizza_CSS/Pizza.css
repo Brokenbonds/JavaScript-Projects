@@ -1,9 +1,27 @@
+
+body{
+    background-color: #F3950D;   
+}
+
 #menuBG{
-    width: 400px;
-    height: 470px;
+    width: 450px;
+    height: 840px;
     margin: 10px auto;
 }
 
+h1,h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #0F2C67;
+}
+
+div{
+    
+    background-color: #F4E185;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #0F2C67;
+}
 
 #frmMenu {
     width:400px;
@@ -11,22 +29,37 @@
 }
 
 #totalPrice {
-    width: 200px;
+    width: 180px;
     height: 190px;
-    margin: 0 auto;
+    margin: 0px auto;
     float: right;
+}
+
+
+.bottomleft,.blankarea{
+ width: 190px;
+ height: 230px;
+ float:left;
+ bottom: 0;
+}
+
+.blankarea{
+    float: right;
+    height: 200px;
 }
 
 .left {
-    width: 200px;
+    width: 190px;
     height: 200px;
     float: left;
+    padding-left: 10px;
 }
 
 .right{
-    width: 200px;
-    height: 200px;
+    width: 190px;
+    height: 230px;
     float: right;
+    padding-right: 10px;
 }
 
 #showText {
@@ -41,9 +74,15 @@
     margin:0 auto;
     width: 400px;
     height: 200px;
+    padding-left: 10px;
+    
 }
 #btnOrder{
     margin: 10px 0px 0px 100px;
     width: 100px;
     height: 40px;
+    
+}
+#showText{
+    font-size: .75em;
 }
