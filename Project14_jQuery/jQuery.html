@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- this is the jQuery Libray files-->
+    <script src=" https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!--This script uses jQuery-->
+    <script>
+        // the $ shows that I am using jQuery and inside of the () is where I target the DOM object
+        // this line is targeting the entire document when it is ready, when it is it will run a function.
+        $(document).ready(function(){
+            // this again uses jQuery to target the html DOM and will append whatever is in the parentheses
+            $("html").append(
+            //here I have writen the entire webpage in quotatoins, I continue the quoatinos to the next line with \
+            "<body>\
+                <div id='container'>\
+                    <div id='inner'>\
+                    <h1>Basic jQuery</h1>\
+                    <p id='1'>Bring back the h1 element</p>\
+                    <p id='2'>This Paragraph is Red</p>\
+                    <p id='3'>Hide the h1 element</p>\
+                    </div>\
+                </div>\
+            </body>"
+            );
+            // again I use the jQuery to target an id with a # and I target the CSS with .css
+            $("#2").css({"color":"red"})
+            // here I create a use the event .click for when I click on it and then rung the funtion
+            $("#3").click(function() {
+                //here I use the effect hide on the h1 element in our page and tell it to go slow
+                $('h1').hide("slow");
+            })
+                // I used the click event again here
+            $("#1").click(function() {
+                // I've paired it with show to bring back the h1 element slowly
+                $('h1').show("slow");
+            })
+
+        });
+    </script>
+</body>
+</html>
