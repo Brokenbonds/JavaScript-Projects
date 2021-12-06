@@ -39,19 +39,15 @@ A deepr dive into strings varriables and different functions such as ```.toUpper
 Created a Slide show with images, A countdown timer and figured out a shortened version using an id and ```.innerHTML``` to output a string
 
 #Project 10 Loops Array<br>
-
 played around with ```While()``` true loops, ```For()``` Loops, ```Arrays[]```  and learned the difference between a variable and a constant.
 
 #Project 11 TicTacToe<br>
-
 Created a Tic-Tac-Toe Game.
 
 #Project 12 Calculator<br>
-
 Created a working calculator
 
 #Project 13 Pizza_ Project<br>
-
 Created a mock pizza ordering webpage that calculated the cost of a pizza and its toppings.
 
 
