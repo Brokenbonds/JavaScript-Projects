@@ -1,0 +1,56 @@
+html{
+    font-family: "Avenir Next", Helvetica, sans-serif;
+    text-align: center;
+}
+
+html,body{
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.content{
+    flex: 1 0 auto;
+}
+
+input{
+    padding-top: 30px;
+    width: 500px;
+    height: 60px;
+    font-size: 40 px;
+    border: 0;
+    background: #ddd;
+    margin: 15px auto;
+    
+}
+
+input:focus{
+    outline: none;
+}
+
+li{
+    text-align: center;
+    font-size: 40px;
+    list-style: none;
+    margin: 0;
+}
+
+
+
+footer{
+    background-color: #ddd;
+    padding: 2px;
+    border: 1px solid black;
+    flex-shrink: 0;
+    bottom: 0;
+}
+
+/* adds padding on removed items*/
+.remove {
+    padding-bottom: 5px;;
+}
